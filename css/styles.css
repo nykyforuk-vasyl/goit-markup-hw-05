@@ -502,9 +502,7 @@ img {
     background-color: #31d0aa;
 }
 
-.footer-icon {
-    fill: #f4f4fd;
-}
+.footer-input-wrap {}
 
 .footer-text-input {
     font-weight: 500;
@@ -515,18 +513,16 @@ img {
     margin-bottom: 16px;
 }
 
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+
 .footer-label {
     display: block;
 }
 
-.footer-input-wrap {}
-
-.footer-label-wrap {
-    display: flex;
-}
-
 .footer-input {
-    margin-right: 24px;
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
@@ -536,6 +532,9 @@ img {
     background-color: transparent;
     padding-left: 16px;
     color: #fff;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
 }
 
 .footer-input:focus {
@@ -719,7 +718,10 @@ img {
     height: 120px;
     background-color: transparent;
     padding: 8px 16px;
-
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     resize: none;
@@ -739,6 +741,10 @@ img {
 
 .check-wrap {
     margin-bottom: 24px;
+}
+
+.modal-check {
+    background-color: #404bbf;
 }
 
 .modal-check:checked+.check-label .modal-accent {
@@ -764,7 +770,7 @@ img {
     border: 1px solid rgba(46, 47, 66, 0.4);
     width: 16px;
     height: 16px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -789,7 +795,7 @@ img {
     background: #4d5ae5;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     display: block;
     margin: 0 auto;

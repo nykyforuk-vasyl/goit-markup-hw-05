@@ -536,10 +536,6 @@ img {
     letter-spacing: 0.04em;
 }
 
-.footer-input:focus {
-    border-color: #4d5ae5;
-}
-
 .footer-input::placeholder {
     font-weight: 400;
     font-size: 12px;
@@ -768,10 +764,6 @@ img {
     border: none;
     fill: #F4F4FD;
 }
-
-/* .modal-check:focus+.check-label .modal-accent {
-    border-color: #4d5ae5;
-} */
 
 .check-label .modal-link {
     line-height: 1.33;

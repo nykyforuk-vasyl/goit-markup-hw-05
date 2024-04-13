@@ -502,6 +502,10 @@ img {
     background-color: #31d0aa;
 }
 
+.footer-icon {
+    fill: #f4f4fd;
+}
+
 .footer-input-wrap {}
 
 .footer-text-input {
@@ -534,6 +538,7 @@ img {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
+    outline: transparent;
 }
 
 .footer-input::placeholder {
